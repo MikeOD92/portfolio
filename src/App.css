@@ -47,8 +47,13 @@ table {
 	border-spacing: 0;
 }
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;400&family=Roboto:wght@300&display=swap');
-/* // font-family: 'MuseoModerno', cursive;
-// font-family: 'Roboto', sans-serif; */
+/* font-family: 'MuseoModerno', sans-serif;
+font-family: 'Roboto', sans-serif; */
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;;
+	/* background-color: rgb(71, 71, 71); */
+}
 .splash{
 	background-size: cover;
 	background-image: url("./img/green-splash.jpg");
@@ -75,6 +80,7 @@ table {
 	color: white;
 	font-size: 40px;
 	text-shadow: 5px 3px 7px rgb(0,0,0);
+	/* margin-left: 5vw; */
 }
 .navLink{
     font-size: 30px;
@@ -87,4 +93,29 @@ table {
 .navLink:hover{
 	text-decoration: underline wavy rgb(7, 218, 147);
 }
-
+.iconStyles{
+	font-size: 100px;
+	color: rgb(219, 91, 5);
+	padding: 3px;
+	margin: 5px;
+}
+h2{
+	font-size: 36px;
+	font-family: 'MuseoModerno', sans-serif;
+}
+h3{
+	font-size: 26px;
+	font-family: 'MuseoModerno', sans-serif;
+	text-align: center;
+}
+#portfolio h3{
+	text-decoration: underline solid black;
+}
+h4{
+	font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+	.splashSubTitle{
+		margin-left: 5vw;
+	}
+}

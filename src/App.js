@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Header/>
         <main>
-          <Container fluid style={{paddingLeft: "0", paddingRight: "0"}}>
+          <Container fluid style={{paddingLeft: "0", paddingRight: "0"}} >
             <Routes>
               <Route path="/" element={<Home/>} exact />
               {/* <Route path="/about" element={<About/>} />
