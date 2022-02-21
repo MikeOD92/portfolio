@@ -49,10 +49,33 @@ table {
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;400&family=Roboto:wght@300&display=swap');
 /* // font-family: 'MuseoModerno', cursive;
 // font-family: 'Roboto', sans-serif; */
-
-.navLink{
-    font-size: 20px;
+.splash{
+	background-size: cover;
+	background-image: url("./img/green-splash.jpg");
+	background-blend-mode: color-dodge;
+	/* padding-right: 0;
+	padding-left: 0; */
+	margin: 0;
+	height: 150vh;
+	color: rgb(255, 102, 0);
 	font-family: 'MuseoModerno', cursive;
-
+}
+.splashTitle{
+	margin-top: 10vh;
+	margin-left: 20vw;
+	font-size: 86px;
+	text-shadow: 5px 3px 7px rgb(0,0,0);
+	font-weight: 400;
+}
+.navLink{
+    font-size: 30px;
+	font-family: 'MuseoModerno', cursive;
+	margin-left: 10%;
+}
+.homeLink{
+	font-size:42px;
+}
+.navLink:hover{
+	text-decoration: underline wavy rgb(7, 218, 147);
 }
 

@@ -6,11 +6,11 @@ import { Gi3DStairs } from "react-icons/gi";
 export default function Header() {
   return (
 
-    <Navbar sticky="top" bg="dark" variant="dark" expand="lg" collapseOnSelect style={{boxShadow: "5px 5px 5px 5px rgba(0,0,0,0.2)"}}>
+    <Navbar sticky="top" className="py-3" bg="black" variant="dark" expand="lg" collapseOnSelect style={{boxShadow: "5px 5px 5px 5px rgba(0,0,0,0.2)"}}>
       <Container>
 
-        <LinkContainer to="/">
-          <Navbar.Brand> <Gi3DStairs/> </Navbar.Brand>
+        <LinkContainer to="#home">
+          <Navbar.Brand className="homeLink"> <Gi3DStairs/> </Navbar.Brand>
         </LinkContainer> 
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
