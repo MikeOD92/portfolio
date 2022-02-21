@@ -12,7 +12,10 @@ export default function Home() {
                 <h1 className='splashTitle' id="home"> _Michael_ T_ <br/>_O'Dell </h1>
               </Col>
               <Col></Col>
-              <Col></Col>
+              <Col>
+                <h2 className="splashSubTitle"> Software Engineer / Web Developer / Artist</h2>
+              </Col>
+              
             </Row>
             
       </Container>

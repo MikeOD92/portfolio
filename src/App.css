@@ -53,19 +53,28 @@ table {
 	background-size: cover;
 	background-image: url("./img/green-splash.jpg");
 	background-blend-mode: color-dodge;
-	/* padding-right: 0;
-	padding-left: 0; */
+	padding-right: 0;
+	padding-left: 0;
+	overflow: hidden;
 	margin: 0;
 	height: 150vh;
-	color: rgb(255, 102, 0);
+	/* color: rgb(255, 51, 0); */
+	color: white;
 	font-family: 'MuseoModerno', cursive;
 }
 .splashTitle{
 	margin-top: 10vh;
-	margin-left: 20vw;
-	font-size: 86px;
+	margin-left: 5vw;
+	font-size: 76px;
 	text-shadow: 5px 3px 7px rgb(0,0,0);
 	font-weight: 400;
+	padding: 10px;
+}
+.splashSubTitle{
+	margin-top: 60vh;
+	color: white;
+	font-size: 40px;
+	text-shadow: 5px 3px 7px rgb(0,0,0);
 }
 .navLink{
     font-size: 30px;
