@@ -65,7 +65,7 @@ export default function Skills() {
 						<DiMongodb/>
 						<SiPostman/>
 					</Col>
-					<Col xs={6} sm={12} md={4} lg={4} xl={4} > 
+					<Col xs={12} sm={12} md={4} lg={4} xl={4} > 
 						<h3> _Other_ </h3>
 						<SiGit/>
 						<DiHeroku/>
