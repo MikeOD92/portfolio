@@ -15,7 +15,7 @@ export default function Portfoliocard(props) {
         <Carousel fade activeIndex={index} onSelect={handleCarousel} className='mb-3'>
               {props.data.img.map(img => {
                 return(
-                  <Carousel.Item>
+                  <Carousel.Item interval={8000}>
                     <img
                       className='d-block w-100'
                       src={`${img}`}
@@ -36,10 +36,9 @@ export default function Portfoliocard(props) {
       {props.data.p1? <p className='mb-3'>{props.data.p1}</p> : ""}
       {props.data.p2? <p className='mb-3'>{props.data.p2}</p> : ""}
 
-      {props.data.sitelink? <a href={props.data.sitelink} className='mb-3'> {props.data.title} </a> : ""}
-      {props.data.git? <a href={props.data.git}> Git Repo</a> : ""}
+      {props.data.sitelink? <p className='mb-2'> <a href={props.data.sitelink} > {props.data.title} </a></p> : ""}
+      {props.data.git? <p> <a href={props.data.git}> Git Repo</a> </p> : ""}
       
-
     </Container>
   )
 }

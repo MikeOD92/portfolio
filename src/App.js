@@ -2,6 +2,7 @@ import './App.css';
 import {Container, } from 'react-bootstrap'
 import Header from './components/Header'
 import Home from './components/Home'
+import Footer from './components/Footer'
 // import About from './components/About'
 // import Portfolio from './components/Portfolio'
 // import Contact from './components/Contact'
@@ -19,9 +20,9 @@ function App() {
               <Route path="/portfolio" element={<Portfolio/>} />
               <Route path="/contact" element={<Contact/>} /> */}
             </Routes>
-
           </Container>
         </main>
+        <Footer/>
     </Router>
   
   );

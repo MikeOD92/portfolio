@@ -15,7 +15,7 @@ const projectData = [
         p2: "oll Bot is currently in development specifically for players of Dungeon World. I plan to include set up options so people can play other Powered by the Apocalypse games such as Apocalypse World, City of Mist, Monster Hearts and others.",
         img: ["https://i.imgur.com/As2PMxH.png"],
         sitelink:"",
-        git: ""
+        git: "https://github.com/MikeOD92/rollbot"
     },
     
     {
@@ -25,7 +25,7 @@ const projectData = [
         p2: "",
         img: ["https://i.imgur.com/SS2pauD.png","https://i.imgur.com/xwf5aUK.png"],
         sitelink: "https://raincheckapp.netlify.app/",
-        git: ""
+        git: "https://github.com/MikeOD92/weather_app"
     },
     {
         title: "Here comes Treble",
@@ -34,7 +34,7 @@ const projectData = [
         p2: "",
         img: ["https://i.imgur.com/gH4zQsv.png"],
         sitelink:"https://here-comes-treble.netlify.app/",
-        git: ""
+        git: "https://github.com/MikeOD92/here_comes_treble"
     },
     {
         title: "My-Pack",
@@ -43,7 +43,7 @@ const projectData = [
         p2: "Users can make a list of their backpacking gear, calculate total weight and see a chart which breaks down weights into user defined gear categories.",
         img: ["https://i.imgur.com/JuAT335.png","https://i.imgur.com/YKreI6V.png"],
         sitelink: "https://my-pack.herokuapp.com/",
-        git: ""
+        git: "https://github.com/MikeOD92/mypack"
     },
     {
         title: "Fermenter",
@@ -52,7 +52,7 @@ const projectData = [
         p2: "Users have full crud capibility with recipes for beers and lacto fermentations. Planing to add recipe models for vinegars, cider, cheese and grain fermentations. Users can make time-stamped notes associated with recipes to record variations and outcomes",
         img: ["https://i.imgur.com/u6E93df.png"],
         sitelink: "https://infinite-temple-91457.herokuapp.com",
-        git: ""
+        git: "https://github.com/MikeOD92/Fermenter"
     },
     {
         title: "Computer Cacti",
@@ -61,7 +61,7 @@ const projectData = [
         p2: "with this application the user has full crud over product models and can click the buy button to reduce inventory",
         img: ["https://i.imgur.com/eBNcPPv.png", "https://i.imgur.com/vhaBqKg.png"],
         sitelink: "https://computercacti.herokuapp.com/",
-        git: ""
+        git: "https://github.com/MikeOD92/computer-cacti"
     },
     {
         title: "Wizard's Maze",
@@ -70,7 +70,7 @@ const projectData = [
         p2: "The game is lost when the player's health reaches zero and the game is won when the player has escaped the maze.",
         img: ["https://i.imgur.com/6MHHpZZ.png", "https://i.imgur.com/UrVeKAf.jpg"],
         sitelink: "https://mikeod92.github.io/Wizards_Maze/",
-        git: ""
+        git: "https://github.com/MikeOD92/Wizards_Maze"
     },
     // {
     //     title: "",

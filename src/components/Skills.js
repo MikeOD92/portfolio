@@ -40,8 +40,8 @@ export default function Skills() {
 			<IconContext.Provider value={{className:"iconStyles"}}>
 				<Row className="mt-4" style={{textAlign: 'center'}}> <h2> Skills</h2></Row>
 				<Row className='mt-5'>
-					<Col>
-						<h3> Front_End </h3>
+					<Col xs={12} sm={6} md={4} lg={4} xl={4} >
+						<h3> _Front_End_ </h3>
 						<DiHtml5/>
 						<DiCss3/>
 						<DiJsBadge/>
@@ -52,8 +52,8 @@ export default function Skills() {
 						<DiSass/>
 						<DiGulp/>	
 					</Col>
-					<Col> 
-						<h3> Back_End  </h3>
+					<Col xs={12} sm={6} md={4} lg={4} xl={4} >
+						<h3> _Back_End_ </h3>
 						<DiPython/>
 						<DiRuby/>
 						<DiNodejsSmall/>
@@ -65,8 +65,8 @@ export default function Skills() {
 						<DiMongodb/>
 						<SiPostman/>
 					</Col>
-					<Col> 
-						<h3> _Other_</h3>
+					<Col xs={6} sm={12} md={4} lg={4} xl={4} > 
+						<h3> _Other_ </h3>
 						<SiGit/>
 						<DiHeroku/>
 						<SiAdobeillustrator/>

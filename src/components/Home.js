@@ -2,11 +2,13 @@ import React from 'react';
 import {Container,Row, Col,} from 'react-bootstrap';
 import Skills from './Skills'
 import Portfolio from './Portfolio'
+import About from './About'
+import Contact from './Contact'
 // import greenSplash from '../img/green-splash.jpg'
 // import yellowSplash from '../img/yellow-splash.jpg'
 export default function Home() {
   return (
-    <Container fluid style={{paddingLeft: "0", paddingRight: "0"}}>
+    <Container  fluid style={{paddingLeft: "0", paddingRight: "0"}}>
       <Container fluid className="splash" style={{paddingLeft: "0", paddingRight: "0"}}>
             <Row>
               <Col>
@@ -21,10 +23,16 @@ export default function Home() {
       </Container>
       <Container fluid>
         <Row>
+          <About/>
+        </Row>
+        <Row>
           <Skills/>
         </Row>
         <Row>
           <Portfolio/>
+        </Row>
+        <Row>
+          <Contact />
         </Row>
       </Container>
     </Container>

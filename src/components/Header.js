@@ -8,7 +8,7 @@ export default function Header() {
     <Navbar sticky="top" className="py-3" bg="black" variant="dark" expand="lg" collapseOnSelect style={{boxShadow: "5px 5px 5px 5px rgba(0,0,0,0.2)"}}>
       <Container>
 
-          <Navbar.Brand href="#home"className="homeLink"> <Gi3DStairs/> </Navbar.Brand>
+          <Navbar.Brand href="#"className="homeLink"> <Gi3DStairs/> </Navbar.Brand>
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
