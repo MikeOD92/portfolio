@@ -15,7 +15,7 @@ export default function Portfoliocard(props) {
         <Carousel fade activeIndex={index} onSelect={handleCarousel} className='mb-3'>
               {props.data.img.map(img => {
                 return(
-                  <Carousel.Item interval={8000}>
+                  <Carousel.Item interval={8000} key={img}>
                     <img
                       className='d-block w-100'
                       src={`${img}`}

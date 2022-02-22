@@ -37,7 +37,7 @@ export default function Home() {
         </Container>
 
       <Container fluid>
-        <Row>
+        <Row id="about">
           <About/>
         </Row>
         <Row>

@@ -9,7 +9,7 @@ import {Row, Col, Nav} from 'react-bootstrap';
 export default function Footer() {
   return (
     <footer className='py-3' style={{background: "black"}} id="contact">
-      <Row>
+      <Row className='mt-3'>
         <Col xs={12} sm={12} md={3} lg={4} xl={4}>
           <p style={{color: "white", marginLeft: "5vw"}}>
           <IconContext.Provider value={{style: {color: "white", fontSize: "30px", marginRight: '3vw'}}}>
