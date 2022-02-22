@@ -4,7 +4,6 @@ import {Container,Row, Col} from 'react-bootstrap';
 import Skills from './Skills'
 import Portfolio from './Portfolio'
 import About from './About'
-import Contact from './Contact'
 
 export default function Home() {
 
