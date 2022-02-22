@@ -17,6 +17,8 @@ export default function Header() {
 
                 <Nav.Link href='#about' className="navLink">About</Nav.Link>
 
+                <Nav.Link href='#skills' className="navLink">Skills</Nav.Link>
+
                 <Nav.Link href='#portfolio' className="navLink">Portfolio</Nav.Link>
 
                 <Nav.Link href='#contact' className="navLink">Contact</Nav.Link>

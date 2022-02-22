@@ -52,6 +52,7 @@ font-family: 'Roboto', sans-serif; */
 body{
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;;
+	overflow-x: hidden;
 	/* background-color: rgb(71, 71, 71); */
 }
 /* a{
@@ -60,7 +61,7 @@ body{
 .splash{
 	background-size: cover;
 	background-image: url("./img/green-splash.jpg");
-	background-blend-mode: color-dodge;
+	opacity: 0;
 	padding-right: 0;
 	padding-left: 0;
 	overflow: hidden;
@@ -69,6 +70,12 @@ body{
 	/* color: rgb(255, 51, 0); */
 	color: white;
 	font-family: 'MuseoModerno', cursive;
+	transition-timing-function: ease-in;/* ease-in-out cubic-bezier(0.075, 0.82, 0.165, 1); */;
+	transition: 0.5s;
+
+}
+.splash__visable{
+	opacity: 1;
 }
 .splashTitle{
 	margin-top: 10vh;
@@ -80,6 +87,7 @@ body{
 }
 .splashSubTitle{
 	margin-top: 60vh;
+	margin-left: 15vw;
 	color: white;
 	font-size: 40px;
 	text-shadow: 5px 3px 7px rgb(0,0,0);
@@ -117,14 +125,53 @@ h3{
 h4{
 	font-size: 20px;
 }
+.profPic{
+	width: 20vw;
+	margin-top: 5vh;
+}
+.aboutLine{
+	margin-top: 16vh;
+}
+.contactIcons{
+	font-size: 26px;
+	margin-right: 10px;
+	color: white;
+	background-color: black;
+}
+
+.contactItem,  .contactItem:visited{
+	color: white;
+	display: inline;
+
+}
+.contactItem:hover{
+	color:rgb(7, 218, 147);
+}
 @media only screen and (max-width: 600px) {
 	.splashSubTitle{
 		margin-left: 5vw;
+		position: relative;
+		bottom: 20vh;
+	}
+	.profPic{
+		width: 40vw;
+		margin-top: 2vh;
+	}
+	.aboutLine{
+		margin-top: 10vh;
 	}
 }
 
 @media only screen and (max-width: 450px) {
 	.splashSubTitle{
-		margin-left: 1vw;
+		position: relative;
+		bottom: 20vh;
+	}
+	.profPic{
+		width: 50vw;
+		margin-top: 2vh;
+	}
+	.aboutLine{
+		margin-top: 6vh;
 	}
 }

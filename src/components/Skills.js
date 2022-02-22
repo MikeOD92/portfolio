@@ -36,12 +36,12 @@ import {
 
 export default function Skills() {
 	return (
-		<Container className='py-3'>
+		<Container className='py-3' id="skills">
 			<IconContext.Provider value={{className:"iconStyles"}}>
 				<Row className="mt-4" style={{textAlign: 'center'}}> <h2> Skills</h2></Row>
 				<Row className='mt-5'>
 					<Col xs={12} sm={6} md={4} lg={4} xl={4} >
-						<h3> _Front_End_ </h3>
+						<h3> Front End</h3>
 						<DiHtml5/>
 						<DiCss3/>
 						<DiJsBadge/>
@@ -53,7 +53,7 @@ export default function Skills() {
 						<DiGulp/>	
 					</Col>
 					<Col xs={12} sm={6} md={4} lg={4} xl={4} >
-						<h3> _Back_End_ </h3>
+						<h3> Back End </h3>
 						<DiPython/>
 						<DiRuby/>
 						<DiNodejsSmall/>
@@ -66,7 +66,7 @@ export default function Skills() {
 						<SiPostman/>
 					</Col>
 					<Col xs={12} sm={12} md={4} lg={4} xl={4} > 
-						<h3> _Other_ </h3>
+						<h3> Other </h3>
 						<SiGit/>
 						<DiHeroku/>
 						<SiAdobeillustrator/>
