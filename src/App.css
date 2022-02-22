@@ -163,6 +163,9 @@ h4{
 	.aboutLine{
 		margin-top: 10vh;
 	}
+	.splashTitle{
+		font-size: 62px;
+	}
 
 }
 
@@ -177,5 +180,8 @@ h4{
 	}
 	.aboutLine{
 		margin-top: 6vh;
+	}
+	.splashTitle{
+		font-size: 62px;
 	}
 }
