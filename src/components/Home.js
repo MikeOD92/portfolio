@@ -10,7 +10,7 @@ export default function Home() {
   const [show, setShow] = useState(true)
 
   const controlSplash = () => {
-    if(window.scrollY > window.visualViewport.height /1.2){
+    if(window.scrollY > window.visualViewport.height){
       setShow(false)
     }else setShow(true)
   } 

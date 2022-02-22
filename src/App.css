@@ -147,6 +147,9 @@ h4{
 .contactItem:hover{
 	color:rgb(7, 218, 147);
 }
+#skills{
+	text-align: center;
+}
 @media only screen and (max-width: 600px) {
 	.splashSubTitle{
 		margin-left: 5vw;

@@ -15,10 +15,7 @@ export default function About() {
           />
         </Col>
         <Col className="aboutLine">
-          <p> This will be the about me section of my webnste what the hell i will say here? 
-            beats me but for now we need trext for formatting</p>
-          <p> Perhaps with time I will figfure out what to say, for now i will proboablyu just brain storm and formatt</p>
-          <p>I will figure iut out, By the time i deploy this website </p> 
+              <p> My name is Michael, I'm a software engineer, web developer and creative, who uses Javascript and Python on build web applications.</p>
         </Col>
       </Row>
     </Container>

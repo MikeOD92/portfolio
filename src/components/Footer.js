@@ -19,7 +19,7 @@ export default function Footer() {
         </Col>
         <IconContext.Provider value={{className: "contactIcons"}}>
         <Col>
-            <Nav.Link href="mailto:michaelodell660@gmail.com" className='contactItem'><AiOutlineMail/>MICHAELODELL660@GMAIL.COM</Nav.Link>
+            <Nav.Link href="mailto:michaelodell660@gmail.com" className='contactItem'><AiOutlineMail/>michaelodell660@gmail.com</Nav.Link>
             <Nav.Link href='https://github.com/MikeOD92' className="contactItem"><DiGithubBadge/>github</Nav.Link>
             <Nav.Link href='https://www.linkedin.com/in/michaelodell92/' className="contactItem"><AiOutlineLinkedin/>linkedIn</Nav.Link>
         </Col>
