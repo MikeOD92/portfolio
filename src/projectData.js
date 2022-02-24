@@ -4,7 +4,7 @@ const projectData = [
         subTitle: "React and Django app built for the Immigration Law Office of Moises Barraza.",
         p1: "This app allows the law firm to create responsive forms for their intake process that can be edited as needed by staff. The intake app facilitates a quick and user friendly intake process for both the law firm and their prospective clients.",
         p2: "",
-        img: ["https://i.imgur.com/EeHRqgY.png"],
+        img: ["https://i.imgur.com/EeHRqgY.png", "https://i.imgur.com/NMogUN6.png", "https://i.imgur.com/t2g5ERL.png", "https://i.imgur.com/zXZdPBv.png"],
         sitelink:"",
         git: ""
     },
