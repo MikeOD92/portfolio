@@ -12,7 +12,7 @@ const projectData = [
         title: " Roll Bot",
         subTitle: "Discord bot designed to help play Powered by the Apocalypse Role Playing Games (RPG) remotely.",
         p1: "Roll Bot uses Discord.py, and PyMongo to respond to user input, build character sheets, and to make dice rolls with or without modifiers based on their characters play sheet. Character sheets are stored in MongoDB, which can be updated and changed as players level up",
-        p2: "oll Bot is currently in development specifically for players of Dungeon World. I plan to include set up options so people can play other Powered by the Apocalypse games such as Apocalypse World, City of Mist, Monster Hearts and others.",
+        p2: "Roll Bot is currently in development specifically for players of Dungeon World. I plan to include set up options so people can play other Powered by the Apocalypse games such as Apocalypse World, City of Mist, Monster Hearts and others.",
         img: ["https://i.imgur.com/As2PMxH.png"],
         sitelink:"",
         git: "https://github.com/MikeOD92/rollbot"
