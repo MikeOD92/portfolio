@@ -15,7 +15,7 @@ export default function About() {
           />
         </Col>
         <Col className="aboutLine">
-              <p> My name is Michael, I'm a software engineer and creative, who uses Javascript and Python to build web applications.</p>
+              <p> My name is Michael, I'm a software engineer and creative who uses Javascript and Python to build web applications.</p>
         </Col>
       </Row>
     </Container>
