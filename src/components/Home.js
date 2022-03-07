@@ -10,7 +10,6 @@ export default function Home() {
 
   const animate = useSpring({
     opacity: show ? 1 : 0,
-    // scale: show ? 1 : 0,
     config: { duration: 50 },
   });
 

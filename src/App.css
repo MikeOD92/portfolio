@@ -3,185 +3,269 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;400&family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;400&family=Roboto:wght@300&display=swap");
 /* font-family: 'MuseoModerno', sans-serif;
 font-family: 'Roboto', sans-serif; */
-body{
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;;
-	overflow-x: hidden;
-	/* background-color: rgb(71, 71, 71); */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  overflow-x: hidden;
+  /* background-color: rgb(71, 71, 71); */
 }
 /* a{
 
 } */
-.splash{
-	background-size: cover;
-	background-image: url("https://i.imgur.com/iUJ1hzD.jpg");
-	opacity: 0;
-	padding-right: 0;
-	padding-left: 0;
-	overflow: hidden;
-	margin: 0;
-	height: 150vh;
-	/* color: rgb(255, 51, 0); */
-	color: white;
-	font-family: 'MuseoModerno', cursive;
-	transition-timing-function: ease-in;/* ease-in-out cubic-bezier(0.075, 0.82, 0.165, 1); */;
-	transition: 0.5s;
+.splash {
+  background-size: cover;
+  background-image: url("https://i.imgur.com/iUJ1hzD.jpg");
+  opacity: 0;
+  padding-right: 0;
+  padding-left: 0;
+  overflow: hidden;
+  margin: 0;
+  height: 150vh;
+  /* color: rgb(255, 51, 0); */
+  color: white;
+  font-family: "MuseoModerno", cursive;
+  transition-timing-function: ease-in; /* ease-in-out cubic-bezier(0.075, 0.82, 0.165, 1); */
+  transition: 0.5s;
+}
+.splash__visable {
+  opacity: 1;
+}
+.splashTitle {
+  margin-top: 10vh;
+  margin-left: 5vw;
+  font-size: 76px;
+  text-shadow: 5px 3px 7px rgb(0, 0, 0);
+  font-weight: 400;
+  padding: 10px;
+}
+.splashSubTitle {
+  margin-top: 60vh;
+  margin-left: 15vw;
+  color: white;
+  font-size: 40px;
+  text-shadow: 5px 3px 7px rgb(0, 0, 0);
+  /* margin-left: 5vw; */
+}
+.navLink {
+  font-size: 30px;
+  font-family: "MuseoModerno", cursive;
+  margin-left: 10%;
+}
+.homeLink {
+  font-size: 42px;
+}
+.navLink:hover {
+  text-decoration: underline wavy rgb(7, 218, 147);
+}
+.iconStyles {
+  font-size: 100px;
+  color: rgb(219, 91, 5);
+  padding: 3px;
+  margin: 5px;
+}
+h2 {
+  font-size: 36px;
+  font-family: "MuseoModerno", sans-serif;
+}
+h3 {
+  font-size: 26px;
+  font-family: "MuseoModerno", sans-serif;
+  text-align: center;
+}
+#portfolio h3 {
+  text-decoration: underline solid black;
+}
+h4 {
+  font-size: 20px;
+}
+.profPic {
+  width: 20vw;
+  margin-top: 5vh;
+}
+.aboutLine {
+  margin-top: 16vh;
+}
+.contactIcons {
+  font-size: 26px;
+  margin-right: 10px;
+  color: white;
+  background-color: black;
+}
 
+.contactItem,
+.contactItem:visited {
+  color: white;
+  display: inline;
 }
-.splash__visable{
-	opacity: 1;
+.contactItem:hover {
+  color: rgb(7, 218, 147);
 }
-.splashTitle{
-	margin-top: 10vh;
-	margin-left: 5vw;
-	font-size: 76px;
-	text-shadow: 5px 3px 7px rgb(0,0,0);
-	font-weight: 400;
-	padding: 10px;
+#skills {
+  text-align: center;
 }
-.splashSubTitle{
-	margin-top: 60vh;
-	margin-left: 15vw;
-	color: white;
-	font-size: 40px;
-	text-shadow: 5px 3px 7px rgb(0,0,0);
-	/* margin-left: 5vw; */
-}
-.navLink{
-    font-size: 30px;
-	font-family: 'MuseoModerno', cursive;
-	margin-left: 10%;
-}
-.homeLink{
-	font-size:42px;
-}
-.navLink:hover{
-	text-decoration: underline wavy rgb(7, 218, 147);
-}
-.iconStyles{
-	font-size: 100px;
-	color: rgb(219, 91, 5);
-	padding: 3px;
-	margin: 5px;
-}
-h2{
-	font-size: 36px;
-	font-family: 'MuseoModerno', sans-serif;
-}
-h3{
-	font-size: 26px;
-	font-family: 'MuseoModerno', sans-serif;
-	text-align: center;
-}
-#portfolio h3{
-	text-decoration: underline solid black;
-}
-h4{
-	font-size: 20px;
-}
-.profPic{
-	width: 20vw;
-	margin-top: 5vh;
-}
-.aboutLine{
-	margin-top: 16vh;
-}
-.contactIcons{
-	font-size: 26px;
-	margin-right: 10px;
-	color: white;
-	background-color: black;
-}
-
-.contactItem,  .contactItem:visited{
-	color: white;
-	display: inline;
-
-}
-.contactItem:hover{
-	color:rgb(7, 218, 147);
-}
-#skills{
-	text-align: center;
+.skillsDiv {
+  display: inline-block;
+  font-size: 14px;
+  color: rgb(219, 91, 5);
 }
 @media only screen and (max-width: 600px) {
-	.splashSubTitle{
-		margin-left: 5vw;
-		position: relative;
-		bottom: 20vh;
-	}
-	.profPic{
-		width: 40vw;
-		margin-top: 2vh;
-	}
-	.aboutLine{
-		margin-top: 10vh;
-	}
-	.splashTitle{
-		font-size: 62px;
-	}
-
+  .splashSubTitle {
+    margin-left: 5vw;
+    position: relative;
+    bottom: 20vh;
+  }
+  .profPic {
+    width: 40vw;
+    margin-top: 2vh;
+  }
+  .aboutLine {
+    margin-top: 10vh;
+  }
+  .splashTitle {
+    font-size: 62px;
+  }
 }
 
 @media only screen and (max-width: 450px) {
-	.splashSubTitle{
-		position: relative;
-		bottom: 20vh;
-	}
-	.profPic{
-		width: 50vw;
-		margin-top: 2vh;
-	}
-	.aboutLine{
-		margin-top: 6vh;
-	}
-	.splashTitle{
-		font-size: 62px;
-	}
+  .splashSubTitle {
+    position: relative;
+    bottom: 20vh;
+  }
+  .profPic {
+    width: 50vw;
+    margin-top: 2vh;
+  }
+  .aboutLine {
+    margin-top: 6vh;
+  }
+  .splashTitle {
+    font-size: 62px;
+  }
 }

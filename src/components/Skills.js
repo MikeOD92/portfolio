@@ -46,40 +46,125 @@ export default function Skills() {
         <Row className="mt-5">
           <Col xs={12} sm={6} md={4} lg={4} xl={4}>
             <h3> Front End</h3>
-            <DiHtml5 />
-            <DiCss3 />
-            <DiJsBadge />
-            <DiReact />
-            <SiRedux />
-            <DiJqueryLogo />
-            <SiBootstrap />
-            <DiSass />
-            <DiGulp />
+            <div className="skillsDiv">
+              <DiHtml5 />
+              <p>HTML5</p>
+            </div>
+            <div className="skillsDiv">
+              <DiCss3 />
+              <p>CSS3</p>
+            </div>
+            <div className="skillsDiv">
+              <DiJsBadge />
+              <p>Javascript</p>
+            </div>
+            <div className="skillsDiv">
+              <DiReact />
+              <p>React</p>
+            </div>
+            <div className="skillsDiv">
+              <SiRedux />
+              <p>Redux</p>
+            </div>
+            <div className="skillsDiv">
+              <DiJqueryLogo />
+              <p>Jquery</p>
+            </div>
+            <div className="skillsDiv">
+              <SiBootstrap />
+              <p>Bootstrap</p>
+            </div>
+            <div className="skillsDiv">
+              <DiSass />
+              <p>SaSS</p>
+            </div>
+            <div className="skillsDiv">
+              <DiGulp />
+              <p>Gulp</p>
+            </div>
           </Col>
           <Col xs={12} sm={6} md={4} lg={4} xl={4}>
             <h3> Back End </h3>
-            <DiPython />
-            <DiRuby />
-            <DiNodejsSmall />
-            <DiDjango />
-            <SiRubyonrails />
-            <DiDocker />
-            <DiDatabase />
-            <DiPostgresql />
-            <DiMongodb />
-            <SiPostman />
+            <div className="skillsDiv">
+              <DiPython />
+              <p>Python</p>
+            </div>
+            <div className="skillsDiv">
+              <DiRuby />
+              <p>Ruby</p>
+            </div>
+            <div className="skillsDiv">
+              <DiNodejsSmall />
+              <p>NodeJS</p>
+            </div>
+            <div className="skillsDiv">
+              <DiDjango />
+              <p>Django</p>
+            </div>
+            <div className="skillsDiv">
+              <SiRubyonrails />
+              <p>Ruby on Rails</p>
+            </div>
+            <div className="skillsDiv">
+              <DiDocker />
+              <p>Docker</p>
+            </div>
+            <div className="skillsDiv">
+              <DiDatabase />
+              <p>Databases</p>
+            </div>
+            <div className="skillsDiv">
+              <DiPostgresql />
+              <p>PostgreSQL</p>
+            </div>
+            <div className="skillsDiv">
+              <DiMongodb />
+              <p>MongoDB</p>
+            </div>
+            <div className="skillsDiv">
+              <SiPostman />
+              <p>Postman</p>
+            </div>
           </Col>
           <Col xs={12} sm={12} md={4} lg={4} xl={4}>
             <h3> Other </h3>
-            <SiGit />
-            <DiHeroku />
-            <SiTestinglibrary />
-            <SiJest />
-            <SiAdobeillustrator />
-            <SiAdobephotoshop />
-            <SiAdobepremierepro />
-            <SiGimp />
-            <SiBlender />
+            <div className="skillsDiv">
+              <SiGit />
+              <p>Git</p>
+            </div>
+            <div className="skillsDiv">
+              <DiHeroku />
+              <p>Heroku</p>
+            </div>
+            <div className="skillsDiv">
+              <SiTestinglibrary />
+              <p> React Testing Library</p>
+            </div>
+            <div className="skillsDiv">
+              <SiJest />
+              <p>Jest</p>
+            </div>
+            <div className="skillsDiv">
+              <SiAdobeillustrator />
+              <p> Adobe illustrator</p>
+            </div>
+            <div className="skillsDiv">
+              <SiAdobephotoshop />
+              <p>Adobe Photoshop</p>
+            </div>
+            <div className="skillsDiv">
+              <SiAdobepremierepro />
+              <p>Adobe Premiere Pro</p>
+            </div>
+            <div className="skillsDiv">
+              <SiGimp />
+              <p>Gimp</p>
+            </div>
+            <div className="skillsDiv">
+              <SiBlender />
+              <p>Blender</p>
+            </div>
+            {/* <div className="skillsDiv"></div> */}
           </Col>
         </Row>
       </IconContext.Provider>
