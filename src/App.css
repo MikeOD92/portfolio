@@ -181,6 +181,11 @@ body {
 .homeLink {
   font-size: 42px;
 }
+.resumeLink,
+.resumeLink:hover,
+.resumeLink:visited {
+  color: black;
+}
 .navLink:hover {
   text-decoration: underline wavy rgb(7, 218, 147);
 }
