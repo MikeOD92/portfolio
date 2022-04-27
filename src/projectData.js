@@ -1,12 +1,17 @@
 const projectData = [
   {
-    title: "Random Man Editions Website",
+    title: "Random Man Editions",
     subTitle:
-      "E-commerce site for NYC art book publisher, built with Django and React.",
-    p1: "Ecommerce website that uses Django to serve a React Front end as static files. The site uses a PostGres database and an S3 bucket hosted with AWS. Check out and payment is done through PayPal",
-    p2: "on the site users are able to view and purchase publications. When a purchase is made the customer will receive and automated confirmation email. Staff users can create, edit and delete publications, edit the text and links on the about and contact pages, and can read, edit, delete, fulfill and archive orders. when a staff member fulfills an order the site will ask for a tracking number associated with the shipment and send an automated email with this information to the customer.",
-    img: [],
-    sitelink: "https://www.randomman.net",
+      "E-commerce site for NYC art book publisher, built with React, Redux, Django, and postgreSQL",
+    p1: "Site visitors are able to view and purchase publications. Checkout is facilitated by PayPal. Customers receive an automated confirmation email on purchase and later a shipping notification with a tracking number provided by the store. ",
+    p2: "Staff users have crud functionality with publications, media, orders and the text and links in the about and contact pages. \n *current link goes to demo site as we still need to set up some credentials and move to offical url",
+    img: [
+      "https://i.imgur.com/sxlrLpN.png",
+      "https://i.imgur.com/9l4bkTq.png",
+      "https://i.imgur.com/sIs5G33.png",
+      "https://i.imgur.com/vHLLKYJ.png",
+    ],
+    sitelink: "https://randomman-reboot-demo.herokuapp.com/",
     git: "",
   },
   {
