@@ -14,6 +14,7 @@ import {
   SiGimp,
   SiTestinglibrary,
   SiJest,
+  SiTypescript,
 } from "react-icons/si";
 
 import {
@@ -57,6 +58,10 @@ export default function Skills() {
             <div className="skillsDiv">
               <DiJsBadge />
               <p>Javascript</p>
+            </div>
+            <div className="skillsDiv">
+              <SiTypescript />
+              <p>Typescript</p>
             </div>
             <div className="skillsDiv">
               <DiReact />

@@ -1,5 +1,23 @@
 const projectData = [
   {
+    title: "Jackie Slanley Artist Site",
+    subTitle: "Portfolio site for NYC based sculptor and painter.",
+    p1: "Built with Django, React, Redux, Typescript, and postgreSQL. The site uses custom hooks to handle authentication and to check if animated elements are in view.",
+    p2: "Site visitors can view artworks and have the ability to zoom and pan on images. Authorized users have CRUD functionality over artworks and can edit page text, splash images, and links on the about and CV pages.",
+    img: [
+      "https://i.imgur.com/Le8CHVg.png",
+      "https://i.imgur.com/xtIh5VM.png",
+      "https://i.imgur.com/38PnLBE.png",
+      "https://i.imgur.com/QFM0vEX.png",
+      "https://i.imgur.com/HoIvrLm.png",
+      "https://i.imgur.com/pqfMm2y.png",
+      "https://i.imgur.com/UyIz3DO.png",
+      "https://i.imgur.com/ZaCjML7.png",
+    ],
+    sitelink: "https://jackie-artist-site-demo.herokuapp.com/",
+    git: "https://github.com/MikeOD92/Jackie_artistsite",
+  },
+  {
     title: "Random Man Editions",
     subTitle:
       "E-commerce site for NYC art book publisher, built with React, Redux, Django, and postgreSQL",
@@ -84,7 +102,7 @@ const projectData = [
     p1: "Built with an express and mongoDB backend ",
     p2: "with this application the user has full crud over product models and can click the buy button to reduce inventory",
     img: ["https://i.imgur.com/eBNcPPv.png", "https://i.imgur.com/vhaBqKg.png"],
-    sitelink: "https://computercacti.herokuapp.com/",
+    sitelink: "",
     git: "https://github.com/MikeOD92/computer-cacti",
   },
   {
