@@ -51,18 +51,16 @@ export default function PortfolioItemModal(props) {
               })}
             </Carousel>
           ) : (
-            <div className="d-flex">
-              <Image
-                fluid
-                className="d-block m-auto"
-                src={props.data.img[0]}
-                alt={`${props.data.title}`}
-                style={{
-                  maxHeight: "65vh",
-                  alignSelf: "center",
-                }}
-              />
-            </div>
+            <Image
+              fluid
+              className="d-block m-auto mt-5"
+              src={props.data.img[0]}
+              alt={`${props.data.title}`}
+              style={{
+                maxHeight: "65vh",
+                alignSelf: "center",
+              }}
+            />
           )}
         </Col>
         <Col md={5} className="p-5">
