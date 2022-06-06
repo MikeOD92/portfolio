@@ -9,7 +9,7 @@ export default function PortfolioItemModal(props) {
   };
   return (
     <Container
-      className="p-5"
+      className="p-3"
       style={{
         position: "fixed",
         width: "100vw",
@@ -23,25 +23,27 @@ export default function PortfolioItemModal(props) {
       }}
     >
       <Row>
-        <Col md={6}>
+        <Col md={6} className="d-flex">
           {props.data.img.length > 1 ? (
             <Carousel
               variant="dark"
               fade
               activeIndex={index}
               onSelect={handleCarousel}
-              className="mb-3"
+              className="mt-5 mb-3"
+              style={{ alignSelf: "center" }}
             >
               {props.data.img.map((img) => {
                 return (
-                  <Carousel.Item interval={8000} key={img}>
+                  <Carousel.Item interval={8000} key={img} className="d-flex">
                     <Image
                       fluid
                       className="d-block m-auto"
                       src={`${img}`}
                       alt={`${props.data.title} thumbnail`}
                       style={{
-                        maxHeight: "70vh",
+                        maxHeight: "65vh",
+                        alignSelf: "center",
                       }}
                     />
                   </Carousel.Item>
@@ -49,20 +51,23 @@ export default function PortfolioItemModal(props) {
               })}
             </Carousel>
           ) : (
-            <Image
-              fluid
-              className="d-block mb-3  m-auto"
-              src={props.data.img[0]}
-              alt={`${props.data.title}`}
-              style={{
-                maxHeight: "70vh",
-              }}
-            />
+            <div className="d-flex">
+              <Image
+                fluid
+                className="d-block m-auto"
+                src={props.data.img[0]}
+                alt={`${props.data.title}`}
+                style={{
+                  maxHeight: "65vh",
+                  alignSelf: "center",
+                }}
+              />
+            </div>
           )}
         </Col>
-        <Col md={5}>
-          <h3 className="mb-3">{props.data.title}</h3>
-          <h4 className="mb-3"> {props.data.subTitle}</h4>
+        <Col md={5} className="p-5">
+          <h3>{props.data.title}</h3>
+          <h4 className="mb-3 mt-5"> {props.data.subTitle}</h4>
           <div style={{ overFlow: "scroll" }}>
             {props.data.p1 ? <p className="mb-3">{props.data.p1}</p> : ""}
             {props.data.p2 ? <p className="mb-3">{props.data.p2}</p> : ""}
