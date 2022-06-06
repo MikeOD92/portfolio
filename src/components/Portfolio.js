@@ -1,11 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import projectData from "../projectData";
 import PortfolioCard from "./Portfoliocard";
+import PortfolioItemModal from "./PortfolioItemModal";
 
 export default function Portfolio() {
+  const [singleView, setSingleView] = useState(false);
+  const [singleViewData, setSingleViewData] = useState({});
+
   return (
-    <Container id="portfolio" className="mt-3">
+    <div id="portfolio" className="mt-3">
+      {singleView && window.innerWidth > 780 ? (
+        <PortfolioItemModal
+          data={singleViewData}
+          setSingleView={setSingleView}
+        />
+      ) : (
+        ""
+      )}
       <Row className="mt-3">
         {" "}
         <h2 style={{ textAlign: "center" }}> Portfolio</h2>
@@ -22,11 +34,15 @@ export default function Portfolio() {
               xl={3}
               key={project.title}
             >
-              <PortfolioCard data={project} />
+              <PortfolioCard
+                data={project}
+                setSingleView={setSingleView}
+                setSingleViewData={setSingleViewData}
+              />
             </Col>
           );
         })}
       </Row>
-    </Container>
+    </div>
   );
 }

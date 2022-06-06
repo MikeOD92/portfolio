@@ -6,6 +6,13 @@ export default function Portfoliocard(props) {
   const handleCarousel = (selectedIndex, e) => {
     setIndex(selectedIndex);
   };
+  const refresh = () => {
+    props.setSingleView(true);
+  };
+  const handleClick = (artwork) => {
+    props.setSingleViewData(artwork);
+    refresh();
+  };
   return (
     <Container fluid className="py-5">
       <h3 className="mb-3">{props.data.title}</h3>
@@ -17,6 +24,7 @@ export default function Portfoliocard(props) {
           onSelect={handleCarousel}
           className="mb-3"
           style={{ boxShadow: "2px 2px 3px rgba(0,0,0,0.2)" }}
+          onClick={() => handleClick(props.data)}
         >
           {props.data.img.map((img) => {
             return (
@@ -36,6 +44,7 @@ export default function Portfoliocard(props) {
           src={props.data.img[0]}
           alt={`${props.data.title} thumbnail`}
           style={{ boxShadow: "2px 2px 3px rgba(0,0,0,0.2)" }}
+          onClick={() => handleClick(props.data)}
         />
       )}
 
