@@ -20,7 +20,7 @@ const projectData = [
   {
     title: "Random Man Editions",
     subTitle:
-      "E-commerce site for NYC art book publisher, built with React, Redux, Django, and postgreSQL",
+      "randomman.net - E-commerce site for NYC art book publisher, built with React, Redux, Django, and postgreSQL",
     p1: "Site visitors are able to view and purchase publications. Checkout is facilitated by PayPal. Customers receive an automated confirmation email on purchase and later a shipping notification with a tracking number provided by the store. ",
     p2: "Staff users have crud functionality with publications, media, orders and the text and links in the about and contact pages. \n *current link goes to demo site as we still need to set up some credentials and move to offical url",
     img: [
@@ -29,7 +29,7 @@ const projectData = [
       "https://i.imgur.com/sIs5G33.png",
       "https://i.imgur.com/vHLLKYJ.png",
     ],
-    sitelink: "https://randomman-reboot-demo.herokuapp.com/",
+    sitelink: "https://www.randomman.net/",
     git: "",
   },
   {
