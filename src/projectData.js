@@ -1,5 +1,22 @@
 const projectData = [
   {
+    title: "Inglewood Open Studios Event Page",
+    subTitle: "",
+    p1: "Built a Django web server, and used vanilla Javascript to add custom features to clients Squarespace site. Create a paginated view of all artists participating in open studio artwalk, pages for each indiviual artist, and a page for the video program at the Miracle Theater.",
+    p2: "",
+    img: [
+      "https://i.imgur.com/T7iC6iE.png",
+      "https://i.imgur.com/YwWpQJ6.png",
+      "https://i.imgur.com/jwXf5YJ.png",
+      "https://i.imgur.com/m9eAbof.png",
+      "https://i.imgur.com/C19MfQE.png",
+      "https://i.imgur.com/3pGQnFc.png",
+      "https://i.imgur.com/txh7Zqi.png",
+    ],
+    sitelink: "https://inglewoodopenstudios.org/artwalk-2022",
+    git: "https://github.com/MikeOD92/inglewood_openstudios_clientScripts",
+  },
+  {
     title: "Jackie Slanley Artist Site",
     subTitle: "Portfolio site for NYC based sculptor and painter.",
     p1: "Built with Django, React, Redux, Typescript, and postgreSQL. The site uses custom hooks to handle authentication and to check if animated elements are in view.",
@@ -22,7 +39,7 @@ const projectData = [
     subTitle:
       "randomman.net - E-commerce site for NYC art book publisher, built with React, Redux, Django, and postgreSQL",
     p1: "Site visitors are able to view and purchase publications. Checkout is facilitated by PayPal. Customers receive an automated confirmation email on purchase and later a shipping notification with a tracking number provided by the store. ",
-    p2: "Staff users have crud functionality with publications, media, orders and the text and links in the about and contact pages. \n *current link goes to demo site as we still need to set up some credentials and move to offical url",
+    p2: "Staff users have crud functionality with publications, media, orders and the text and links in the about and contact pages.",
     img: [
       "https://i.imgur.com/sxlrLpN.png",
       "https://i.imgur.com/9l4bkTq.png",
