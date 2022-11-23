@@ -7,7 +7,7 @@ import About from "./About";
 
 export default function Home() {
   const [show, setShow] = useState(true);
-  const [bkgNum, setBkgNum] = useState(Math.floor(Math.random() * (3 - 0 + 1)));
+  const [bkgNum, setBkgNum] = useState(Math.floor(Math.random() * (4 - 0 + 1)));
 
   // useEffect(() => {
   //   setBkgNum(Math.floor(Math.random() * (3 - 0 + 1)));
@@ -18,7 +18,7 @@ export default function Home() {
   });
 
   const controlSplash = () => {
-    if (window.scrollY > window.visualViewport.height - 100) {
+    if (window.scrollY > window.visualViewport.height - 200) {
       setShow(false);
     } else setShow(true);
   };
@@ -42,7 +42,9 @@ export default function Home() {
               ? "https://i.imgur.com/iUJ1hzD.jpg"
               : bkgNum === 2
               ? "https://i.imgur.com/iP5cpbK.jpg"
-              : "https://i.imgur.com/4xAI11W.jpg"
+              : bkgNum === 3
+              ? "https://i.imgur.com/4xAI11W.jpg"
+              : "https://i.imgur.com/xtssdOa.jpg"
           })`,
           backgroundSize: "cover",
         }}
