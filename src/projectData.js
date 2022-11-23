@@ -1,9 +1,9 @@
 const projectData = [
   {
-    title: "Inglewood Open Studios Event Page",
-    subTitle: "",
-    p1: "Built a Django web server, and used vanilla Javascript to add custom features to clients Squarespace site. Create a paginated view of all artists participating in open studio artwalk, pages for each indiviual artist, and a page for the video program at the Miracle Theater.",
-    p2: "",
+    title: "Inglewood Open Studios",
+    subTitle: "Event page, artists profiles, backend server and database",
+    p1: "Built a Django web server using PostgreSQL database for artist and event information.",
+    p2: "Using vanilla Javascript I added custom features to clients Squarespace site. Including a paginated view of all artists participating in open studios event, and pages for each indiviual artist with image carousels, studio information and artist statments.",
     img: [
       "https://i.imgur.com/T7iC6iE.png",
       "https://i.imgur.com/YwWpQJ6.png",

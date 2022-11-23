@@ -7,10 +7,14 @@ import About from "./About";
 
 export default function Home() {
   const [show, setShow] = useState(true);
+  const [bkgNum, setBkgNum] = useState(Math.floor(Math.random() * (3 - 0 + 1)));
 
+  // useEffect(() => {
+  //   setBkgNum(Math.floor(Math.random() * (3 - 0 + 1)));
+  // }, []);
   const animate = useSpring({
     opacity: show ? 1 : 0,
-    config: { duration: 50 },
+    config: { duration: 15 },
   });
 
   const controlSplash = () => {
@@ -31,7 +35,17 @@ export default function Home() {
       <animated.div
         fluid
         className={`splash ${show && "splash__visable"}`}
-        style={animate}
+        style={{
+          animate,
+          backgroundImage: `url(${
+            bkgNum === 1
+              ? "https://i.imgur.com/iUJ1hzD.jpg"
+              : bkgNum === 2
+              ? "https://i.imgur.com/iP5cpbK.jpg"
+              : "https://i.imgur.com/4xAI11W.jpg"
+          })`,
+          backgroundSize: "cover",
+        }}
       >
         {" "}
         <Row>
