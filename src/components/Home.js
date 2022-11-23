@@ -9,9 +9,6 @@ export default function Home() {
   const [show, setShow] = useState(true);
   const [bkgNum, setBkgNum] = useState(Math.floor(Math.random() * (4 - 0 + 1)));
 
-  // useEffect(() => {
-  //   setBkgNum(Math.floor(Math.random() * (3 - 0 + 1)));
-  // }, []);
   const animate = useSpring({
     opacity: show ? 1 : 0,
     config: { duration: 15 },
