@@ -26,7 +26,9 @@ export default function About() {
             <Col md={6} lg={3}>
               <a
                 className="navLink resumeLink"
+                target="_blank"
                 href="https://docs.google.com/document/d/1FjxY7Q63uHAY_-X2ZyAQuV_YcuQO51HO_vqVTS5NW80/edit?usp=sharing"
+                rel="noreferrer"
               >
                 <RiArrowGoForwardFill /> Resume{" "}
               </a>

@@ -15,6 +15,10 @@ import {
   SiTestinglibrary,
   SiJest,
   SiTypescript,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiAmazonaws,
+  SiLinux,
 } from "react-icons/si";
 
 import {
@@ -68,12 +72,20 @@ export default function Skills() {
               <p>React</p>
             </div>
             <div className="skillsDiv">
+              <SiNextdotjs />
+              <p>Next.JS</p>
+            </div>
+            <div className="skillsDiv">
               <SiRedux />
               <p>Redux</p>
             </div>
             <div className="skillsDiv">
               <DiJqueryLogo />
               <p>Jquery</p>
+            </div>
+            <div className="skillsDiv">
+              <SiTailwindcss />
+              <p>TailWindCSS</p>
             </div>
             <div className="skillsDiv">
               <SiBootstrap />
@@ -127,6 +139,10 @@ export default function Skills() {
               <p>MongoDB</p>
             </div>
             <div className="skillsDiv">
+              <SiAmazonaws />
+              <p>AWS</p>
+            </div>
+            <div className="skillsDiv">
               <SiPostman />
               <p>Postman</p>
             </div>
@@ -140,6 +156,10 @@ export default function Skills() {
             <div className="skillsDiv">
               <DiHeroku />
               <p>Heroku</p>
+            </div>
+            <div className="skillsDiv">
+              <SiLinux />
+              <p>Linux</p>
             </div>
             <div className="skillsDiv">
               <SiTestinglibrary />
