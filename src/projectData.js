@@ -1,6 +1,6 @@
 const projectData = [
   {
-    title: "Jamesoliver.com",
+    title: "Jamesolivermycology.com",
     subTitle: "Professional website for Mycologist and Public speaker",
     p1: "Built with Next.JS, React, TailwindCSS, Node.JS on the backend, and MongoDB.",
     p2: "website includes blog features for events and projects, about and CV pages. Authenticated users are able to edit each page and upload images. Maps are built with the Google Map Platform API and images are uploaded to an AWS S3 bucket",
